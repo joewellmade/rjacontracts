@@ -1,9 +1,10 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #222;
+    color: #fff;
     font-size: 1em;
     line-height: 1.4;
+    background-color: #333;
 }
 
 ::-moz-selection {
@@ -238,8 +239,8 @@ nav a:hover {
    ============ */
 
     .main article {
-        float: left;
-        width: 57%;
+        text-align: center;
+        width: 100%;
     }
 
     .main aside {
@@ -370,4 +371,21 @@ nav a:hover {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/* ----------- CUSTOM STYLES ---------- */
+
+img {
+    max-width: 100%;
+}
+header {
+    margin-top: 40px;
+}
+p {
+    line-height: 1em;
+    text-align: center;
+}
+a {
+    color: #fff;
+    text-decoration: underline;
 }
